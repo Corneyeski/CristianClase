@@ -1,14 +1,15 @@
-.container-fluid > .row {
-    border:1px solid black;
-}
-#titulo{
-    text-align: center;
-    background-color: gray;
-}
-
 .encabezado{
     margin-bottom: 2px;
     margin-top: 2px;
+}
+.borde {
+    border:1px solid black;
+}
+.footer{
+    background-color: gray;
+}
+.row{
+    padding: 1%;
 }
 #header{
     background-color: green;
@@ -16,4 +17,19 @@
 }
 #middle{
     background-color: #c8c5b6;
+}
+#titulo{
+    text-align: center;
+    background-color: gray;
+}
+#footer{
+    background-color: #f4f1e2;
+    text-align: center;
+}
+#enlaces{
+    text-align: center;
+    background-color: gray;
+}
+.container-fluid > .row {
+    border:1px solid black;
 }
